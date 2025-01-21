@@ -1,0 +1,363 @@
+/* Global Styles */
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #e5e5e5; /* Light gray text */
+    background-color: #1c1c1c; /* Dark background */
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #ffc107; /* Gold */
+    color: #1c1c1c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #e0a800; /* Slightly darker gold */
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+
+/* Header Layout */
+/* Header */
+header {
+    background-color: #1c1c1c; /* Dark background */
+    color: #e5e5e5;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Header Container */
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    border-bottom: 2px solid #ffc107; /* Gold divider line */
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .search-bar input {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: #e5e5e5;
+  }
+  
+  .search-bar input::placeholder {
+    color: #bbb;
+  }
+
+  /* Logo */  
+  .logo img {   
+    height: 150px;  
+    position: absolute;
+    left: 50%;  
+    top: 10%;
+    transform: translateX(-50%);
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .social-icons a {
+    font-size: 1.2rem;
+    color: #ffc107; /* Gold icons */
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #e5e5e5; /* Light gray on hover */
+  }
+  
+  /* Navigation */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 30px 0;
+    gap: 200px;
+    background-color: #000; /* Black background */
+  }
+  
+  nav ul li a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #e5e5e5; /* Light gray */
+    font-weight: bold;
+    position: relative;
+    padding: 5px;
+  }
+  
+  nav ul li a:hover {
+    color: #ffc107; /* Gold on hover */
+  }
+  
+  nav ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 2px;
+    width: 0;
+    background-color: #ffc107;
+    transition: width 0.3s ease;
+  }
+  
+  nav ul li a:hover::after {
+    width: 100%; /* Full width underline */
+  }  
+
+    /* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000;
+    color: #e5e5e5;
+  }
+  
+  footer .social-links a {
+    margin-right: 10px;
+    color: #ffc107;
+    font-size: 1.2rem;
+  }
+  
+  footer form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  footer input {
+    padding: 8px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  footer button {
+    padding: 8px 15px;
+  }
+
+/*HOMEPAGE*/
+  
+  /* Hero Section */
+/* Carousel Container */
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 400px; /* Adjust height based on your design */
+  position: relative;
+}
+
+
+  
+/* Carousel Container */
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    position: relative;
+  }
+  
+  /* Carousel Items */
+  .carousel-item {
+    flex: 0 0 100%; /* Each item takes up the full width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    animation: slide 30s infinite; /* Loop through slides */
+  }
+  
+  /* Assign Background Images */
+  .carousel-item:nth-child(1) {
+    background-image: url('/assets/images/hero.png'); /* Ensure the path is correct */
+  }
+  
+  .carousel-item:nth-child(2) {
+    background-image: url('/assets/images/hero.png'); /* Ensure the path is correct */
+  }
+  
+  .carousel-item:nth-child(3) {
+    background-image: url('/assets/images/hero.png'); /* Ensure the path is correct */
+  }
+  
+  /* Sliding Animation */
+  @keyframes slide {
+    0% { transform: translateX(0); }        /* Show first slide */
+    20% { transform: translateX(0); }      /* Pause on first slide */
+    33% { transform: translateX(-100%); }  /* Transition to second slide */
+    53% { transform: translateX(-100%); }  /* Pause on second slide */
+    66% { transform: translateX(-200%); }  /* Transition to third slide */
+    86% { transform: translateX(-200%); }  /* Pause on third slide */
+    100% { transform: translateX(0); }     /* Loop back to first slide */
+  }
+
+  
+  /* Events Section */
+#events {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+    background-color: #1c1c1c;
+  }
+  
+  .event-section {
+    flex: 1;
+    background: #333;
+    padding: 20px;
+  }
+  
+  .event-section h3 {
+    font-size: 1.5rem;
+    color: #ffc107; /* Gold */
+  }
+  
+  .event-section p {
+    font-size: 1rem;
+  }
+  
+  /* Venue Info Section */
+#venue-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+    background-color: #1c1c1c;
+  }
+  
+  .venue-info-section {
+    flex: 1;
+    background: #333;
+    padding: 20px;
+  }
+  
+  .venue-info-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffc107;
+  }
+  
+  .venue-info-section p {
+    font-size: 1rem;
+  }
+
+
+  
+
+
+
+  /* Media Queries */
+@media (max-width: 768px) {
+
+      
+    .header-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        padding: 20px;
+    }
+
+    /* Logo */
+    .logo img {
+        height: 100px; /* Adjust logo size for mobile */
+        margin-bottom: 20px; /* Add spacing below the logo */
+        position: static; /* Remove absolute positioning */
+        transform: none; /* Remove centering transform */
+    }
+
+    /* Search Bar */
+    .search-bar {
+        justify-content: center; /* Center the search bar */
+        margin-bottom: 20px; /* Add spacing below the search bar */
+    }
+
+    .search-bar input {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+
+    /* Social Icons */
+    .social-icons {
+        justify-content: center; /* Center the icons */
+        margin-bottom: 20px; /* Add spacing below the icons */
+    }
+
+    /* Navigation */
+    nav ul {
+        flex-direction: column; /* Stack navigation items vertically */
+        gap: 15px; /* Add spacing between items */
+        padding: 10px 0; /* Add padding */
+    }
+
+    nav ul li a {
+        font-size: 1.2rem; /* Increase font size for better readability */
+        text-align: center; /* Center-align the text */
+    }
+
+    footer {
+      flex-direction: column;
+    }
+
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero .event-info {
+      max-width: 100%;
+    }
+
+    #events {
+      flex-direction: column;
+    }
+  
+    #venue-info {
+      flex-direction: column;
+    }
+  
+  }
+  
+  
