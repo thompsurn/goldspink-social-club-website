@@ -1,0 +1,222 @@
+[
+    {
+      "id": 1,
+      "name": "Live Music Night",
+      "date": "2025-02-14",
+      "time": "19:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/live_music.jpg",
+      "description": "Enjoy an evening of live music featuring local bands.",
+      "link": "https://example.com/event1"
+    },
+    {
+      "id": 2,
+      "name": "Comedy Night",
+      "date": "2025-02-21",
+      "time": "20:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/comedy.jpg",
+      "description": "Laugh your heart out with comedians from around the UK.",
+      "link": "https://example.com/event2"
+    },
+    {
+      "id": 3,
+      "name": "Quiz Night",
+      "date": "2025-03-01",
+      "time": "18:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/quiz.jpg",
+      "description": "Test your knowledge and win exciting prizes.",
+      "link": "https://example.com/event3"
+    },
+    {
+      "id": 4,
+      "name": "Open Mic Night",
+      "date": "2025-04-05",
+      "time": "19:30",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/live_music.jpg",
+      "description": "Showcase your talent or support local performers.",
+      "link": "https://example.com/event4"
+    },
+    {
+      "id": 5,
+      "name": "Karaoke Night",
+      "date": "2025-04-12",
+      "time": "20:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/live_music.jpg",
+      "description": "Sing your favorite tunes with friends.",
+      "link": "https://example.com/event5"
+    },
+    {
+      "id": 6,
+      "name": "Charity Fundraiser",
+      "date": "2025-05-03",
+      "time": "18:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/charity.jpg",
+      "description": "Join us for an evening dedicated to supporting a great cause.",
+      "link": "https://example.com/event6"
+    },
+    {
+      "id": 7,
+      "name": "Beer Tasting Event",
+      "date": "2025-05-17",
+      "time": "19:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/beer_tasting.jpg",
+      "description": "Sample a selection of craft beers from local breweries.",
+      "link": "https://example.com/event7"
+    },
+    {
+      "id": 8,
+      "name": "Family Movie Night",
+      "date": "2025-06-10",
+      "time": "18:30",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/movie_night.jpg",
+      "description": "Bring the family for a screening of a classic movie.",
+      "link": "https://example.com/event8"
+    },
+    {
+      "id": 9,
+      "name": "DJ Night",
+      "date": "2025-06-20",
+      "time": "21:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/dj_night.jpg",
+      "description": "Dance the night away to the latest hits.",
+      "link": "https://example.com/event9"
+    },
+    {
+      "id": 10,
+      "name": "Book Club Meeting",
+      "date": "2025-07-15",
+      "time": "18:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/book_club.jpg",
+      "description": "Discuss this month's book selection with fellow readers.",
+      "link": "https://example.com/event10"
+    },
+    {
+      "id": 11,
+      "name": "Wine Tasting Night",
+      "date": "2025-07-22",
+      "time": "19:30",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/wine_tasting.jpg",
+      "description": "Savor an evening of fine wine and conversation.",
+      "link": "https://example.com/event11"
+    },
+    {
+      "id": 12,
+      "name": "Art Workshop",
+      "date": "2025-08-10",
+      "time": "14:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/art_workshop.jpg",
+      "description": "Learn new techniques and express your creativity.",
+      "link": "https://example.com/event12"
+    },
+    {
+      "id": 13,
+      "name": "Stand-Up Comedy Showcase",
+      "date": "2025-08-25",
+      "time": "20:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/comedy_showcase.jpg",
+      "description": "Enjoy a night of laughs with talented comedians.",
+      "link": "https://example.com/event13"
+    },
+    {
+      "id": 14,
+      "name": "Jazz Night",
+      "date": "2025-09-14",
+      "time": "19:30",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/live_music.jpg",
+      "description": "Relax with live performances from local jazz artists.",
+      "link": "https://example.com/event14"
+    },
+    {
+      "id": 15,
+      "name": "Trivia Night",
+      "date": "2025-09-28",
+      "time": "18:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/trivia_night.jpg",
+      "description": "Show off your knowledge and win prizes.",
+      "link": "https://example.com/event15"
+    },
+    {
+      "id": 16,
+      "name": "Rock Night",
+      "date": "2025-10-05",
+      "time": "20:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/live_music.jpg",
+      "description": "Experience an evening of electrifying rock performances.",
+      "link": "https://example.com/event16"
+    },
+    {
+      "id": 17,
+      "name": "Oktoberfest Celebration",
+      "date": "2025-10-17",
+      "time": "18:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/oktoberfest.jpg",
+      "description": "Celebrate Oktoberfest with great food, drinks, and music.",
+      "link": "https://example.com/event17"
+    },
+    {
+      "id": 18,
+      "name": "Dance Workshop",
+      "date": "2025-11-12",
+      "time": "17:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/dance_workshop.jpg",
+      "description": "Learn new moves from professional dancers.",
+      "link": "https://example.com/event18"
+    },
+    {
+      "id": 19,
+      "name": "Holiday Market",
+      "date": "2025-12-10",
+      "time": "15:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/holiday_market.jpg",
+      "description": "Shop unique holiday gifts from local vendors.",
+      "link": "https://example.com/event19"
+    },
+    {
+      "id": 20,
+      "name": "New Year's Eve Party",
+      "date": "2025-12-31",
+      "time": "21:00",
+      "venue": "Goldspink Social Club",
+      "location": "Newcastle",
+      "image": "assets/images/new_year_party.jpg",
+      "description": "Ring in the new year with us!",
+      "link": "https://example.com/event20"
+    }
+]

@@ -1,11 +1,24 @@
 /* Global Styles */
 body {
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', sans-serif;
     margin: 0;
     padding: 0;
     color: #e5e5e5; /* Light gray text */
     background-color: #1c1c1c; /* Dark background */
     line-height: 1.6;
+  }
+
+  h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
+  h3, .event-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffc107; /* Gold */
+    margin-bottom: 10px;
   }
   
   a {
@@ -45,7 +58,6 @@ body {
 header {
     background-color: #1c1c1c; /* Dark background */
     color: #e5e5e5;
-    padding: 20px 0;
     text-align: center;
     position: relative;
   }
@@ -175,6 +187,22 @@ footer {
     padding: 8px 15px;
   }
 
+
+  .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ffc107; /* Gold for button */
+    color: #1c1c1c; /* Dark text for contrast */
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .read-more:hover {
+    background-color: #e0a800; /* Slightly darker gold on hover */
+  }
+
 /*HOMEPAGE*/
   
   /* Hero Section */
@@ -237,8 +265,25 @@ footer {
   }
 
   
-  /* Events Section */
-#events {
+/* Events Section */
+.section-heading {
+    font-size: 1.8rem; /* Adjust size */
+    color: #e5e5e5; /* Light gray text */
+    text-transform: uppercase; /* Capital letters */
+    text-align: center;
+    position: relative;
+  }
+  
+  .section-heading::after {
+    content: "";
+    display: block;
+    width: 50%; /* Adjust the underline width */
+    height: 2px; /* Thickness of the underline */
+    background-color: #ffc107; /* Gold underline */
+    margin: 10px auto; /* Center align the underline */
+  }
+  
+  #events {
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -246,19 +291,56 @@ footer {
     background-color: #1c1c1c;
   }
   
-  .event-section {
-    flex: 1;
-    background: #333;
-    padding: 20px;
+  .event-card {
+    background-color: #333; /* Dark gray card background */
+    color: #e5e5e5;
+    width: fit-content;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    transition: all 0.3s ease;
   }
   
-  .event-section h3 {
+  .event-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px); /* Lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  
+  .event-details {
+    padding: 15px;
+  }
+  
+  .event-details h3 {
     font-size: 1.5rem;
     color: #ffc107; /* Gold */
   }
   
-  .event-section p {
-    font-size: 1rem;
+  .event-details p {
+    margin: 10px 0;
+  }
+  
+  .event-details a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffc107; /* Gold */
+    color: #1c1c1c;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .event-details a:hover {
+    background-color: #e0a800; /* Slightly darker gold */
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid #ccc; /* Light gray horizontal line */
+    margin: 0;
   }
   
   /* Venue Info Section */
@@ -286,10 +368,223 @@ footer {
     font-size: 1rem;
   }
 
-
+  .venue-info-section ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style: disc;
+  }
+  
+  .venue-info-section ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
   
 
+  /*ABOUT PAGE*/
+/* About Us Hero Section */
+.about-hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  /* About Us Content Section */
+  .about-content {
+    padding: 40px;
+    background-color: #1c1c1c; /* Matches the site background */
+  }
+  
+  .content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-content h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffc107; /* Gold underline */
+    padding-bottom: 10px;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .about-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .about-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* About Photo Gallery Section */
+  .about-photo-gallery {
+    padding: 40px;
+    background-color: #333; /* Slightly lighter background for contrast */
+    color: #e5e5e5;
+    text-align: center;
+  }
+  
+  .about-photo-gallery h2 {
+    margin-bottom: 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
 
+/* EVENTS PAGE */
+
+/* Events Hero Section */
+#events-page .events-hero {
+    background-color: #1c1c1c; /* Matches site background */
+    color: #ffc107; /* Gold text */
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  #events-page .events-hero h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffc107; /* Gold underline */
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  /* Filters Section */
+  #events-page .filters {
+    text-align: center;
+    background-color: #333; /* Slightly lighter background */
+    padding: 20px;
+  }
+  
+  #events-page .filters h2 {
+    font-size: 1.5rem;
+    color: #ffc107; /* Gold text */
+    margin-bottom: 10px;
+  }
+  
+  #events-page .filter-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+  }
+  
+  #events-page .filter-options li a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #e5e5e5;
+    padding: 5px 15px;
+    border: 1px solid #ffc107; /* Gold border */
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  #events-page .filter-options li a:hover {
+    background-color: #ffc107; /* Gold background */
+    color: #1c1c1c; /* Dark text on hover */
+  }
+  
+  /* Events List Section */
+  #events-page .events {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  #events-page .event-card {
+    background-color: #333; /* Dark gray card background */
+    color: #e5e5e5; /* Light text */
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    transition: all 0.3s ease;
+  }
+  
+  #events-page .event-card:hover {
+    transform: translateY(-5px); /* Lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  }
+  
+  #events-page .event-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  #events-page .event-card .event-details {
+    padding: 15px;
+  }
+  
+  #events-page .event-card .event-details h3 {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+  }
+  
+  #events-page .event-card .event-details p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  #events-page .event-card .event-details .date-time {
+    font-weight: bold;
+  }
+  
+  #events-page .event-card .event-details .price {
+    color: #ffc107; /* Highlight price in gold */
+  }
+  
+  #events-page .event-card button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ffc107; /* Gold button */
+    color: #1c1c1c; /* Dark text */
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  #events-page .event-card button:hover {
+    background-color: #e0a800; /* Slightly darker gold */
+  }
+  
 
   /* Media Queries */
 @media (max-width: 768px) {
