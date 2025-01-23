@@ -83,7 +83,7 @@
       "time": "18:30",
       "venue": "Goldspink Social Club",
       "location": "Newcastle",
-      "image": "assets/images/movie_night.jpg",
+      "image": "assets/images/film_night.jpg",
       "description": "Bring the family for a screening of a classic movie.",
       "link": "https://example.com/event8"
     },
@@ -94,7 +94,7 @@
       "time": "21:00",
       "venue": "Goldspink Social Club",
       "location": "Newcastle",
-      "image": "assets/images/dj_night.jpg",
+      "image": "assets/images/dj.jpg",
       "description": "Dance the night away to the latest hits.",
       "link": "https://example.com/event9"
     },
@@ -116,7 +116,7 @@
       "time": "19:30",
       "venue": "Goldspink Social Club",
       "location": "Newcastle",
-      "image": "assets/images/wine_tasting.jpg",
+      "image": "assets/images/wine.jpg",
       "description": "Savor an evening of fine wine and conversation.",
       "link": "https://example.com/event11"
     },
@@ -127,7 +127,7 @@
       "time": "14:00",
       "venue": "Goldspink Social Club",
       "location": "Newcastle",
-      "image": "assets/images/art_workshop.jpg",
+      "image": "assets/images/art.jpg",
       "description": "Learn new techniques and express your creativity.",
       "link": "https://example.com/event12"
     },
@@ -138,7 +138,7 @@
       "time": "20:00",
       "venue": "Goldspink Social Club",
       "location": "Newcastle",
-      "image": "assets/images/comedy_showcase.jpg",
+      "image": "assets/images/comedy.jpg",
       "description": "Enjoy a night of laughs with talented comedians.",
       "link": "https://example.com/event13"
     },
@@ -160,7 +160,7 @@
       "time": "18:00",
       "venue": "Goldspink Social Club",
       "location": "Newcastle",
-      "image": "assets/images/trivia_night.jpg",
+      "image": "assets/images/quiz.jpg",
       "description": "Show off your knowledge and win prizes.",
       "link": "https://example.com/event15"
     },
@@ -193,7 +193,7 @@
       "time": "17:00",
       "venue": "Goldspink Social Club",
       "location": "Newcastle",
-      "image": "assets/images/dance_workshop.jpg",
+      "image": "assets/images/dance.jpg",
       "description": "Learn new moves from professional dancers.",
       "link": "https://example.com/event18"
     },
@@ -204,7 +204,7 @@
       "time": "15:00",
       "venue": "Goldspink Social Club",
       "location": "Newcastle",
-      "image": "assets/images/holiday_market.jpg",
+      "image": "assets/images/christmas_market.jpg",
       "description": "Shop unique holiday gifts from local vendors.",
       "link": "https://example.com/event19"
     },
@@ -215,7 +215,7 @@
       "time": "21:00",
       "venue": "Goldspink Social Club",
       "location": "Newcastle",
-      "image": "assets/images/new_year_party.jpg",
+      "image": "assets/images/new_years.jpg",
       "description": "Ring in the new year with us!",
       "link": "https://example.com/event20"
     }
