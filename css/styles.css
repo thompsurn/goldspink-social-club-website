@@ -278,8 +278,7 @@ footer {
   
 /* Events Section */
 .section-heading {
-    font-size: 1.8rem; /* Adjust size */
-    color: #e5e5e5; /* Light gray text */
+    font-size: 3rem; /* Adjust size */
     text-transform: uppercase; /* Capital letters */
     text-align: center;
     position: relative;
@@ -477,13 +476,12 @@ footer {
 /* Events Hero Section */
 #events-page .events-hero {
     background-color: #1c1c1c; /* Matches site background */
-    color: #ffc107; /* Gold text */
     text-align: center;
     padding: 30px 0;
   }
   
   #events-page .events-hero h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 0;
     text-transform: uppercase;
     border-bottom: 2px solid #ffc107; /* Gold underline */
@@ -590,6 +588,99 @@ footer {
   }
   
   #events-page .event-card button:hover {
+    background-color: #e0a800; /* Slightly darker gold */
+  }
+  
+  /* Contact Page Styles */
+#contact-page .contact-hero {
+    background-color: #1c1c1c;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  #contact-page .contact-hero h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffc107; /* Gold underline */
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  #contact-page .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+    background-color: #333; /* Darker background for the contact section */
+  }
+  
+  .contact-info {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #e5e5e5; /* Light gray */
+  }
+  
+  .contact-info ul li a {
+    color: #ffc107; /* Gold for links */
+    text-decoration: none;
+  }
+  
+  .contact-info ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-form {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form label {
+    font-size: 1rem;
+    color: #e5e5e5; /* Light gray */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #1c1c1c; /* Matches the site background */
+    color: #e5e5e5; /* Light gray */
+    font-size: 1rem;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #bbb;
+  }
+  
+  .contact-form button {
+    background-color: #ffc107; /* Gold button */
+    color: #1c1c1c; /* Dark text */
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
     background-color: #e0a800; /* Slightly darker gold */
   }
   
